@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+table * {
+  font-size:14px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin:0;
+  padding: 0;
+}
+
+table th, table td{
+  padding:4px;
+  margin:0;
+  text-align: left;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table p {
+  padding: 0;
+  margin:0;
+}
+table a{
+  color:#fff;
+  text-decoration: none;
+}
+table tfoot td{
+  text-align: center;
+  padding:6px;
+}
+.invalid{
+  color:#f00;
+}
